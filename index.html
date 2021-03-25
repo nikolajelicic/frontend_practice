@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/acaf216e80.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Shop frontends</title>
+</head>
+<body>
+    <div class="loader-wrapper">
+        <div class="lds-facebook"><div></div><div></div><div></div></div>
+    </div>
+    <header>
+        <div class="pre-header">
+            <ul>
+                <li><a href="#">OUR COVID-19 Response</a></li>
+                <li><a href="#">Download & Support</a></li>
+                <li><a href="#">EN</a></li>
+            </ul>
+        </div>
+        <nav>
+            <div class="logo-img">
+                <a href=""><img src="img/logo.svg" alt="logo"></a>
+            </div>
+            <ul>
+                <li><a href="#">Mice</a></li>
+                <li><a href="#">Keyboard</a></li>
+                <li><a href="#">Headsets</a></li>
+                <li><a href="#">Mousepads</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Content creators</a></li>
+            </ul>
+            <div class="nav-right-side">
+                <a href="#" id="search-btn"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-user-alt"></i></a>
+                <div class="responsive-menu">
+                    <i id="hamburger-menu" class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Flip the <span>switch</span></h1>
+    </section>
+    <section>
+        <video preload="auto" muted="true" autoplay="" loop="" playsinline="true" src="https://media.roccat.org/img/microsites/Flip-The-Switch/BrandVideo_v027.mp4" style="width:100%"></video>
+    </section>
+    <section class="featured">
+        <div class="featured-item animate__animated" data-animation="animate__fadeInUp" data-animation-delay="0.3">
+            <img src="img/keyboard.png" alt="">
+            <h2>Vulcan</h2>
+            <p>Tenkeyless form factor
+                Titan Switch Optical
+                AIMO intelligent lighting engine
+                Mixer-style media controls
+                Detachable braided USB-C cable</p>
+        </div>
+        <div class="featured-item animate__animated" data-animation="animate__fadeInUp" data-animation-delay="0.5">
+            <img src="img/mouse.png" alt="">
+            <h2>Burst</h2>
+            <p>Extreme lightweight shell – only 68g
+                Titan Switch Optical speed & precision
+                PhantomFlexTM cable virtually disappears
+                Heat-treated pure PTFE glides</p>
+        </div>
+        <div class="featured-item animate__animated" data-animation="animate__fadeInUp" data-animation-delay="0.7">
+            <img src="img/headset.png" alt="">
+            <h2>Elo</h2>
+            <p>Self-Adjusting Metal Headband
+                Glasses Friendly Memory Foam Cushions
+                Supreme stereo sound
+                Crystal clear TruSpeak mic technology
+                Cross-platform Compatibility</p>
+        </div>
+    </section>
+    <section class="products">
+        <div class="title">
+            <h2>At ROCCAT, we're passionate about developing premium gaming hardware that makes you play better. German engineering since 2007.</h2>
+        </div>
+        <div class="container">
+            <div class="product-item keyboard animate__animated" data-animation="animate__fadeInLeft" data-animation-delay="0.3">
+                <div class="product-info">
+                    <h3>Vulkan pro</h3>
+                    <p>Optical RBG Gaming Keyboard</p>
+                </div>
+                <div class="overlay">
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            <div class="product-item headset animate__animated" data-animation="animate__fadeInRight" data-animation-delay="0.3">
+                <div class="product-info">
+                    <h3>Vulkan pro</h3>
+                    <p>Optical RBG Gaming Keyboard</p>
+                </div>
+                <div class="overlay">
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sendNews">
+        <h2>Always be the first to know.</h2>
+        <h3>Sign up for our Newsletter</h3>
+        <form action="">
+            <input type="text" placeholder="Email"><br>
+            <button class="btn">Subscribe</button>
+        </form>
+    </section>
+    <footer>
+        <div class="footerSection">
+            <p>Products</p>
+            <ol>
+                <li><a href="#">Mice</a></li>
+                <li><a href="#">Keyboards</a></li>
+                <li><a href="#">Headsets</a></li>
+                <li><a href="#">Mousepads</a></li>
+                <li><a href="#">Accessories</a></li>
+            </ol>
+        </div>
+        <div class="footerSection">
+            <p>Products</p>
+            <ol>
+                <li><a href="#">Downloads & Support</a></li>
+                <li><a href="#">Certificate of authenticity</a></li>
+                <li><a href="#">Terms of Sale</a></li>
+                <li><a href="#">Homologation</a></li>
+            </ol>
+        </div>
+        <div class="footerSection">
+            <p>Products</p>
+            <ol>
+                <li><a href="#">Corporate</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Imprint</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Declaration of Conformity</a></li>
+                <li><a href="#">Terms and Conditions Giveaways</a></li>
+            </ol>
+        </div>
+        <div class="footerSection">
+            <p>CHOOSE YOUR COUNTRY</p>
+            <button id="displayCountrys" class="btn">Click and select country</button>
+        </div>
+    </footer>
+
+    <div class="search">
+        <i id="close" class="fas fa-times"></i>
+        <form action="">
+            <input type="text" placeholder="Keywords...">
+            <button><i class="fas fa-search"></i></button>
+        </form>
+    </div>
+
+    <div class="country">
+        <i id="closeCountry" class="fas fa-times"></i>
+        <h2>Select country</h2>
+        <form action="">
+            <select id="allCountry"></select>
+        </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/animate.js"></script>
+    <script src="js/countries.js"></script>
+
+</body>
+</html>

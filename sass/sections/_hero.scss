@@ -1,0 +1,35 @@
+section.hero{
+    text-align: center;
+
+    h1{
+        font-size: 68px;
+        text-transform: uppercase;
+        color: $white;
+        font-weight: 300;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        letter-spacing: 3px;
+
+        span{
+            font-weight: 500;
+            color: #a2fe73;
+            background-image: -webkit-linear-gradient(145deg, #a2fe73, #35fdb2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -webkit-animation: hue 10s infinite linear;
+        }
+    }
+}
+
+video{
+    height: 100%;
+}
+@-webkit-keyframes hue {
+    from {
+        -webkit-filter: hue-rotate(0deg)
+    }
+
+    to {
+        -webkit-filter: hue-rotate(-360deg)
+    }
+}
